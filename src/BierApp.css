@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.bier-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#e3e3e3,#f6f6f8);
+    z-index: -10;
+}
+
+.bier-app {
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+
+.bier-header {
+    color: #c60021;    
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bier-app input {
+    border: none;
+    border-bottom: 0.5px solid lightgray;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+}
+
+.bier-app input:focus {
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.bier-form {
+    display: grid;
+    grid-template-columns: 230px 230px;
+    row-gap: 5px;
+}
+
+.bier-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bier-button {
+    color: #333333 ;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.bier-button:hover {
+    color: #c60021;
+}
+
+.bier-list-space {
+    width: 450px;
+    border-bottom: 1px dashed black;
+}
